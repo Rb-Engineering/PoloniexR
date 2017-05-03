@@ -1,0 +1,21 @@
+Package: PoloniexR
+Type: Package
+Title: R Wrapper functions for Poloniex public API methods
+Version: 0.0.0.9000
+Authors@R: person("ARRRBEEE", email = "arrrbeee@protonmail.com", 
+  role = c("aut", "cre"))
+Description: This package contains wrapper functions for Poloniex's public API methods.
+    Check GitHub for a quick guide to getting started.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/Rb-Engineering/PoloniexR
+BugReports: https://github.com/Rb-Engineering/PoloniexR/issues
+Imports:
+  utils,
+  plyr,
+  httr
+Suggests:
+  xts,
+  quantmod
+RoxygenNote: 6.0.1
